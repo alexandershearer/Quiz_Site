@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/QuizSite.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+
+
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div id="quizContainer">
+            <div id="quiz">
+            </div>
+            <div id="buttons">
+                <button class="button" id="submit">Submit Quiz</button>
+                <button class="button" id="reset">Reset Quiz</button>
+            </div>
+        </div>
+
+        <div id="results"></div>
+
+    </div>
+
+
+
+
+
+    <script src="../js/QuizSite.js"></script>
+
+    <script src="../js/three.r92.min.js"></script>
+    <script src="../js/vanta.rings.min.js"></script>
+    <script>
+        VANTA.RINGS({
+            el: "#container",
+            backgroundColor: 0x706,
+            color: 0x6b5aeb
+        })
+    </script>
+</body>
+
+</html>
